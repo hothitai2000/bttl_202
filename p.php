@@ -39,7 +39,7 @@
             $_SESSION['traicay'][$n]["g"] = $_POST['g'];
             $_SESSION['traicay'][$n]["mt"] = $_POST['mt'];
             $_SESSION['traicay'][$n]["ha"] = $_POST['ha'];
-            $_SESSION['traicay'][$n]["ha"] = $_POST['x'];
+           
     header('Location:t.php');
 }
     ?>

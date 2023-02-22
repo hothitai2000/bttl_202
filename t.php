@@ -18,7 +18,6 @@
                 <td>Hình ảnh</td>
             </tr>
     </form>
-    
     <?php
     ?>
     <?php
@@ -31,7 +30,7 @@
             <td><?php echo $_SESSION ['traicay'][$i]['g']; ?></td>
             <td><?php echo $_SESSION ['traicay'] [$i]['mt']; ?></td>
             <td><img src="<?php echo $_SESSION ['traicay'][$i]['ha']; ?> " height="50px" ; width="70px"> </td> 
-            <td><a href="t.php">Xóa</a> </td>   
+            <td><a href="delete.php">Xóa</a> </td>   
             <td><a href="t.php">sửa</a> </td>  
         </tr>
     <?php
