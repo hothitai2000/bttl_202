@@ -16,6 +16,8 @@
                 <td>Giá</td>
                 <td>Mô tả</td>
                 <td>Hình ảnh</td>
+                <td>Xóa</td>
+                <td>Sửa</td>
             </tr>
     </form>
     <?php
@@ -30,8 +32,8 @@
             <td><?php echo $_SESSION ['traicay'][$i]['g']; ?></td>
             <td><?php echo $_SESSION ['traicay'] [$i]['mt']; ?></td>
             <td><img src="<?php echo $_SESSION ['traicay'][$i]['ha']; ?> " height="50px" ; width="70px"> </td> 
-            <td><a href="delete.php">Xóa</a> </td>   
-            <td><a href="t.php">sửa</a> </td>  
+            <td><a href="delete.php? XOA=<?php echo $i ?>">Xóa</a> </td>   
+            <td><a href="p.php"> sửa </a></td>  
         </tr>
     <?php
     } 

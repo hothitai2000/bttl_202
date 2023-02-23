@@ -9,9 +9,9 @@
 </head>
 <body>
 <?php
-$id=$_GET['id'] ;
-array_splice($_SESSION['traicay'] ,$id,1);
-header('Location: t.php ')
+$id=$_GET['XOA'] ;
+array_splice($_SESSION['traicay'],$id,1);
+header('Location:t.php')
 ?>
 </body>
 </html>
