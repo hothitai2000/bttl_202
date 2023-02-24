@@ -35,11 +35,10 @@
         $n = 0;
         if (isset($_SESSION['traicay']))
             $n = count($_SESSION['traicay']);
-            $_SESSION['traicay'][$n]["sp"] = $_POST['sp'];
+            $_SESSION['traicay'][$n]["sp"] = $_CPOST['sp'];
             $_SESSION['traicay'][$n]["g"] = $_POST['g'];
             $_SESSION['traicay'][$n]["mt"] = $_POST['mt'];
-            $_SESSION['traicay'][$n]["ha"] = $_POST['ha'];
-           
+            $_SESSION['traicay'][$n]["ha"] = $_POST['ha'];          
     header('Location:t.php');
 }
     ?>
