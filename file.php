@@ -10,8 +10,11 @@
     <form action="" method="post" enctype="multipart/form-data">
         <input type="file" name="file_up">
         <input type="submit" name="btn" value="file upload">
-
     </form>
+    <!-- <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" name="file_up">
+        <input type="submit" name="btn" value="file upload">
+    </form> -->
     <?php
     if (isset($_POST['btn'])) {
         if (isset($_FILES['file_up'])) {
